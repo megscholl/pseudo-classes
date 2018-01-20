@@ -18,3 +18,5 @@ span {
     color: red;
     border: 1px solid #000;
 }
+
+/* could not do :nth-child(even) becasue <div> element in the way. tried :nth-child(2n+0) and such, but did not work for both.*/
